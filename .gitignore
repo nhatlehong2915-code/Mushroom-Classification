@@ -1,0 +1,32 @@
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== File tạm của Excel / Office =====
+~$*
+.~lock.*#
+
+# ===== Hệ điều hành & IDE =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ===== File dữ liệu trung gian (sinh lại được từ notebook) =====
+*.pkl
+*.xls
+
+# ===== File trùng lặp / không cần đưa lên =====
+data/transactions/transactions.csv
+data/processed/Mushroom_Preprocessed_Dataset.xlsx
+data/processed/Mushroom_Normalized_Dataset.xlsx
+results/comparison/FPGrowth_vs_Apriori_Results.xlsx

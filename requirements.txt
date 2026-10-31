@@ -1,0 +1,8 @@
+# Phiên bản đã dùng để kiểm thử notebook (Python 3.12)
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+mlxtend==0.25.0
+openpyxl==3.1.5
+jupyter
